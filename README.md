@@ -1,5 +1,7 @@
 # ste-zht：簡化技術中文規範（繁體）
 
+**語言 / Language：** [简体中文](https://github.com/dualface/ste-zh) | 繁體中文
+
 一個面向 AI Agent 的任務回報規範 skill。借鑑航空與工業界嚴謹的 **ASD-STE100**（Simplified Technical English，簡化技術英語）原則，約束 Agent 用清晰、嚴密且無歧義的繁體中文回報工作結果。
 
 Agent 的日常回報常常過程冗長、推測含糊，或者漏掉關鍵的驗證證據。開啟 `ste-zht` 後，Agent 將遵循受控繁體中文規範進行回報：**結論先行、實證說話、狀態固定、一目瞭然**。

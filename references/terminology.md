@@ -1,6 +1,6 @@
 # 術語與固定譯法
 
-本檔案規定 ste-zht 使用的全部關鍵詞。使用本 skill 時，必須按本表翻譯和用詞。表中沒有的詞，按 R1 在輸出的「術語」節中自行固定。
+本文件規定 ste-zht 使用的全部關鍵詞。使用本 skill 時，必須按本表翻譯和用詞。表中沒有的詞，按 R1 在輸出的「術語」節中自行固定。
 
 ## 1. ASD-STE100 關鍵詞的中文譯法
 
@@ -13,7 +13,7 @@
 | ASD-STE100 | ASD-STE100 | 標準編號，不翻譯。 |
 | Simplified Technical English (STE) | 簡化技術英語 | 縮寫 STE 不翻譯。 |
 | Simplified Technical Chinese | 簡化技術中文 | 本 skill 對繁體中文改寫版的稱呼，不是官方名稱。簡體版見 ste-zh。 |
-| ASD (AeroSpace, Security and Defence Industries Association of Europe) | 歐洲航空航天、安全與防務工業協會 | 一般只寫 ASD。 |
+| ASD (AeroSpace, Security and Defence Industries Association of Europe) | 歐洲航太、安全與國防工業協會 | 一般只寫 ASD。 |
 | STEMG (STE Maintenance Group) | STE 維護組 | |
 | Issue | 版 | 例：Issue 9 寫作「第 9 版」。 |
 | Standard for Technical Documentation | 技術文件標準 | 第 9 版起的副標題。 |
@@ -27,10 +27,10 @@
 | writing rules | 寫作規則 | |
 | dictionary | 詞典 | |
 | approved word | 核准詞 | 詞典允許使用的詞。 |
-| unapproved word / not approved | 非核準詞 | 詞典不允許使用的詞，詞典給出替代詞。 |
+| unapproved word / not approved | 非核准詞 | 詞典不允許使用的詞，詞典給出替代詞。 |
 | alternative | 替代詞 | |
 | part of speech | 詞性 | |
-| approved meaning | 核准詞義 | 一個核準詞只有一個核準詞義。 |
+| approved meaning | 核准詞義 | 一個核准詞只有一個核准詞義。 |
 | technical noun | 技術名詞 | 第 9 版起取代 technical name。 |
 | technical name | 技術名稱 | 第 8 版及更早版本的叫法。 |
 | technical verb | 技術動詞 | |
@@ -52,12 +52,12 @@
 | passive voice | 被動語態 | |
 | imperative (command form) | 祈使句 | |
 | simple tense | 簡單時態 | 中文沒有對應語法，只在解釋英文規則時使用。 |
-| vertical list | 豎排列表 | |
-| word count | 字數 | 中文計數方法見 SKILL.md R7。 |
+| vertical list | 垂直清單 | |
+| word count | 字數 | 中文計算方式見 SKILL.md R7。 |
 | safety instruction | 安全說明 | |
 | warning | 警告 | 有人身傷害風險。 |
 | caution | 注意 | 有裝置或資料損壞風險。 |
-| note | 說明 | 不寫作「註釋」，避免與程式碼註釋混淆。 |
+| note | 說明 | 不寫作「註釋」，避免與程式碼註解混淆。 |
 | consistency | 一致性 | |
 | ambiguity | 歧義 | |
 
@@ -108,7 +108,7 @@
 | 部分完成 | 一部分動作已執行。必須列出沒有執行的部分。 | 基本完成、大致完成 |
 | 未開始 | 沒有執行任何動作。 | 待辦、TODO |
 | 進行中 | 動作已開始，沒有結束。 | 處理中、跟進中 |
-| 已驗證 | 執行了檢查，檢查透過。必須寫出檢查方法。 | 已測試、應該沒問題 |
+| 已驗證 | 執行了檢查，檢查通過。必須寫出檢查方法。 | 已測試、應該沒問題 |
 | 未驗證 | 沒有執行檢查。必須寫出原因。 | 理論上可行、應該可以 |
 | 失敗 | 執行了動作或檢查，結果不符合要求。必須寫出失敗的輸出。 | 有點問題、不太行 |
 | 跳過 | 有意沒有執行。必須寫出原因。 | 略過、忽略 |
@@ -125,7 +125,7 @@
 | 共同條件 | 所有項都適用的事實或約束 | 前提、背景、通用約束 |
 | 問題 | 一項工作的現狀 | 現狀、缺陷描述、痛點 |
 | 要做 | 一項工作必須達到的可檢查結果 | 方案、措施、修復內容、TODO |
-| 改動 | Agent 修改了的檔案或配置 | 變更內容、修改點、diff |
+| 改動 | Agent 修改的檔案或設定 | 變更內容、修改點、diff |
 | 驗證 | 檢查及其結果 | 測試情況、自測 |
 | 未做 | 範圍內沒有執行的事 | 遺留、後續、TODO |
 | 現象 | 使用者看到的行為 | 表現、症狀 |
@@ -138,6 +138,6 @@
 ## 6. 標點與混排
 
 - 中文正文用全形標點：「，。；：（）」。
-- 引用介面文案或強調詞語用直角引號「」。
-- 程式碼、命令、路徑、識別符號寫在反引號內，內部保持半形。
-- 中文與英文單詞、數字之間加一個半形空格。中文與全形標點之間不加空格。
+- 引用介面文字或強調詞語用直角引號「」。
+- 程式碼、命令、路徑、識別碼寫在反引號內，內部保持半形。
+- 中文與英文單字、數字之間加一個半形空格。中文與全形標點之間不加空格。

@@ -162,4 +162,4 @@ git clone https://github.com/dualface/ste-zht.git ~/.claude/skills/ste-zht
 
 - [Kander](https://github.com/dualface/kander)：規則驅動的多 Agent 看板排程工具，內建獨立稽核與自動化交付門禁。
 - [Ullage](https://github.com/dualface/ullage-cli)：本地守護程序與 CLI 工具，檢視 Claude、ChatGPT、Grok、Cursor 等訂閱的用量。
-- [QuickTUI](https://quicktui.ai/)：適用於各類編碼 Agent 的手機端完整終端，支援自託管直連，單臺主機免費。
+- [QuickTUI](https://quicktui.ai/)：適用於各類編碼 Agent 的手機端完整終端，支援自託管直連，單台主機免費。

@@ -89,9 +89,9 @@ npx skills remove --global ste-zht
 
 ### 手動安裝
 
-將本倉庫複製至 Agent 的 skills 目錄下即可。由於本 skill 的標準名稱為 `ste-zht`，複製時請確保目標目錄命名為 `ste-zht`：
+將本儲存庫複製至 Agent 的 skills 目錄下即可。由於本 skill 的標準名稱為 `ste-zht`，複製時請確保目標目錄命名為 `ste-zht`：
 
-**Claude Code（全域性）：**
+**Claude Code（全域）：**
 
 ```bash
 git clone https://github.com/dualface/ste-zht.git ~/.claude/skills/ste-zht
@@ -117,7 +117,7 @@ git clone https://github.com/dualface/ste-zht.git ~/.claude/skills/ste-zht
 
 - **執行機制**：本 skill 靠 Agent 遵守上下文中的指令生效，沒有程式強制執行。
 - **上下文衰減**：在極長工作階段或發生上下文壓縮（compaction）後，Agent 可能會遺忘指令規範。若發現輸出風格退化，隨時重新傳送 `/ste-zht` 即可恢復。
-- **全域性常駐**：如希望每個工作階段預設開啟，可將「每個工作階段開始時載入 ste-zht skill」寫入 Agent 的全域性規則中（例如 Claude Code 的 `~/.claude/CLAUDE.md` 或 `~/.claude/rules/` 規則檔案）。
+- **全域常駐**：如希望每個工作階段預設開啟，可將「每個工作階段開始時載入 ste-zht skill」寫入 Agent 的全域規則中（例如 Claude Code 的 `~/.claude/CLAUDE.md` 或 `~/.claude/rules/` 規則檔案）。
 
 ---
 
